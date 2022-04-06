@@ -1,0 +1,15 @@
+:root {
+    --typeface: "Roboto Mono", monospace;
+    --weight-medium: 500; // regular & italic
+    --weight-thin: 100; // italic only
+    --size-heading: 6.4rem;
+    --size-sub-heading: 2.4rem;
+    --size-regular: 1.6rem;
+    --size-util: 1.2rem;
+
+    @include bp(d3) {
+        --size-heading: 4rem;
+        --size-sub-heading: 2rem;
+        --size-regular: 1.4rem;
+    }
+}

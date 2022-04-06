@@ -1,0 +1,30 @@
+:root {
+    --primary: hsl(167, 65%, 55%);
+    --active-border: hsl(167, 65%, 55%);
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    --neutral-border: hsl(167, 37%, 74%);
+    --neutral-background: hsl(167, 65%, 96%);
+    --active-background: hsl(167, 65%, 80%);
+    --secondary-text: hsl(167, 65%, 21%);
+    --disabled-background: hsl(0, 0%, 87%);
+    --disabled-text: hsl(0, 0%, 40%);
+    --danger-background: hsl(360, 65%, 96%);
+    --danger-text: hsl(360, 65%, 61%);
+    --input-background: hsl(55, 65%, 96%);
+    --shadow: hsla(0, 0%, 0%, 50%) 0 0.4rem 0.4rem 0;
+}
+
+// :root[data-theme="dark"] {
+// }
+
+// ::selection {
+//     color: var(--selection--primary);
+//     background: var(--selection--secondary);
+// }
+// a::selection {
+//     color: var(--primary);
+//     // text-decoration:none;
+//     // background:$selection_tertiary;
+//     text-shadow: none !important;
+// }
